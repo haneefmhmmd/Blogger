@@ -1,0 +1,209 @@
+
+/* navbar */
+
+a:focus{
+  outline: 0 !important;
+  border: 0;
+}
+
+.navbar{
+  justify-content: start !important;
+  padding: 10px 0 !important;
+}
+.navbar-brand{
+ margin-left: 20px;
+}
+.navButton{
+  position: absolute;
+  top : 13px;
+  right: 18px;
+}
+
+
+/* Heart */
+
+.fa-heart{
+  cursor: pointer;
+  color: red;
+}
+.fa-heart-o{
+  cursor: pointer;
+  color: red;
+}
+
+/*Post*/
+
+.postHolder {
+  margin: 0 5%;
+  width: 90%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.post {
+  width: 31.2%;
+  margin: 1%;
+  float: left;
+}
+.card-footer {
+  background-color:#F7F7F7;
+}
+
+.post:hover{
+  cursor: pointer;
+}
+
+/* createComponent */
+
+.createComponent{
+  margin: 5%;
+}
+
+.createButton:hover{
+  cursor: pointer;
+}
+/* //F8F9FA bg */
+/* 2DA949-hover */
+
+
+.centeredButton{
+  float: none;
+  margin: 2% 1%;
+}
+
+/* login */
+
+.logindiv{
+  margin: 25px auto;
+  border: 1px grey solid;
+  width: 300px;
+  height: 380px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #F8F9FA; 
+}
+
+/* registration */
+
+.Registrationdiv{
+  margin: 25px auto;
+  border: 1px grey solid;
+  width: 300px;
+  height: 430px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #F8F9FA; 
+}
+
+.creatediv{
+  margin: 1% 10%;
+  box-sizing: border-box;
+}
+
+.inputdiv{
+  margin: 3% 1%;
+}
+.formLabel,.formInput{
+  margin:3px 20px;
+}
+.formInput{
+  width: 80%;
+  border-radius: 3px;
+  border: 1px grey solid;
+  padding: 4px;
+}
+h2{
+  margin: 10% 0 0 0;
+  text-align: center;
+}
+
+.submitButton{
+  float: none;
+  margin: 3% 0 0 7%;
+  text-align: center;
+}
+
+h6{
+  margin: 7% 0 0 7%;
+}
+
+span{
+  color:blue;
+}
+
+span:hover{
+  cursor: pointer;
+}
+button:focus{
+  outline: 0;
+}
+.createLabel,.bodyInput{
+  margin:8px 20px;
+}
+.bodyInput{
+  padding: 1%;
+}
+.postsHeader{
+  overflow: hidden;
+  margin: 1% 0;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+  margin: 1.2% 2% 0% 0;
+}
+
+
+.right input{
+  padding:5px ;
+  border-radius: 5px;
+  border: 1px grey solid;
+  outline: 0;
+}
+
+.creatediv button{
+  margin-left: 20px;
+}
+
+.viewpostTitle{
+  margin-top: 3%;
+  border: 0;
+  font-weight: bold;
+  text-align: center;
+}
+.viewpostBody{
+  border: 0;
+  margin: 2% 10%;
+}
+
+.viewButton{
+  float: none;
+ margin: 5% 0;
+ margin-left: 40%;
+}
+
+
+/* Mobile View */
+
+@media only screen and (max-width : 600px){
+  .postHolder{
+    width: 100%;
+    margin: 0 ;
+  }
+  .post{
+    float: none;
+    width: 80%;
+    margin: 5% 10%;
+  }
+  .navButton{
+    position: absolute;
+    right: 8px;
+  }
+  .navbar-brand{
+    margin-left: 2px;
+   }
+}
+
+
